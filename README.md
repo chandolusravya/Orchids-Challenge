@@ -5,6 +5,19 @@
 
 This project consists of a backend built with FastAPI and a frontend built with Next.js and TypeScript.
 
+## 🛠 Tech Stack
+
+### Frontend
+- **Next.js** – React-based framework for server-side rendering and routing  
+- **Lucide React** – Icon library for clean and customizable UI elements  
+- **Tailwind CSS** – Utility-first CSS framework for rapid UI development  
+
+### Backend
+- **FastAPI** – High-performance Python web framework for building APIs  
+- **LLM Integration** – GPT (OpenAI), Claude (Anthropic) for LLM workflows  
+- **Web Scraping** – Browserbase + Playwright for headless browser automation
+
+
 ## Backend
 
 The backend uses `uv` for package management.
