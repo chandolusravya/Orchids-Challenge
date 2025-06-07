@@ -42,20 +42,21 @@ To start the frontend development server, run:
 npm run dev
 ```
 ### Project Structure - frontend
+<pre> 
+    src/
+    ├── app/
+    │   ├── layout.tsx          # Root layout with metadata
+    │   ├── page.tsx            # Main page component
+    │   └── globals.css         # Global styles
+    ├── components/
+    │   ├── WebsiteCloner.tsx   # Main container component
+    │   ├── Header.tsx          # Navigation header
+    │   ├── CloneForm.tsx       # URL input form
+    │   ├── PreviewPanel.tsx    # HTML preview iframe
+    │   └── FeatureCards.tsx    # Feature showcase cards
+    ├── services/
+    │   └── cloneService.ts     # API service layer
+    ├── types/
+    │   └── index.ts            # TypeScript definitions
 
-src/
-├── app/
-│   ├── layout.tsx          # Root layout with metadata
-│   ├── page.tsx            # Main page component
-│   └── globals.css         # Global styles
-├── components/
-│   ├── WebsiteCloner.tsx   # Main container component
-│   ├── Header.tsx          # Navigation header
-│   ├── CloneForm.tsx       # URL input form
-│   ├── PreviewPanel.tsx    # HTML preview iframe
-│   └── FeatureCards.tsx    # Feature showcase cards
-├── services/
-│   └── cloneService.ts     # API service layer
-├── types/
-│   └── index.ts            # TypeScript definitions
-└── config files...
+</pre>
