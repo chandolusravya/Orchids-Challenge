@@ -1,4 +1,7 @@
-# Orchids SWE Intern Challenge Template
+# Orchids SWE Intern Challenge 
+
+ Goal: A web app that will take in any given public website URL, scrape the website for useful design context, and give it to an LLM model to replicate the website in HTML. The goal is to create an HTML website that is as aesthetically similar as possible to the given website at the specified URL. 
+
 
 This project consists of a backend built with FastAPI and a frontend built with Next.js and TypeScript.
 
